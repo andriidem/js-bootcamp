@@ -64,7 +64,7 @@ const renderNotes = function(notes, filters) {
         return note.title.toLowerCase().includes(filters.searchText.toLowerCase())
     })
 
-    document.querySelector('#notes').innerHTML = '<p>TEST</p>'
+    document.querySelector('#notes').innerHTML = ''
 
     filteredNotes.forEach(function(note){
        
